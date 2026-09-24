@@ -1,0 +1,84 @@
+:root {
+  --bg: #0e1218;
+  --fg: #eef3f8;
+  --muted: #9aabbc;
+  --accent: #6ea8ff;
+  --line: rgba(238, 243, 248, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--fg);
+  background:
+    radial-gradient(1100px 560px at 20% -20%, rgba(110, 168, 255, 0.2), transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, rgba(120, 90, 200, 0.12), transparent 50%),
+    var(--bg);
+}
+
+.shell {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 4.5rem 1.5rem 3rem;
+}
+
+.eyebrow {
+  margin: 0 0 1rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.2rem, 6vw, 3.2rem);
+  line-height: 1.1;
+  font-weight: 650;
+}
+
+.role {
+  margin: 0.75rem 0 0;
+  font-size: 1.15rem;
+  color: var(--muted);
+}
+
+.lede {
+  margin: 1.5rem 0 0;
+  max-width: 34rem;
+  line-height: 1.55;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin: 1.75rem 0 0;
+}
+
+.links a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(110, 168, 255, 0.35);
+}
+
+.links a:hover {
+  border-bottom-color: var(--accent);
+}
+
+.status {
+  margin: 2rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.9rem;
+  color: var(--muted);
+}
