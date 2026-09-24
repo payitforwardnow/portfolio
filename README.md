@@ -9,6 +9,7 @@ Public index for David McElroy’s position-focused sites.
 | Role | URL |
 |---|---|
 | Full Stack | [fullstack.davidmcelroy.us](https://fullstack.davidmcelroy.us/) |
+| Chief Architect | [chief-architect.davidmcelroy.us](https://chief-architect.davidmcelroy.us/) |
 | Senior Software Engineer | [senior-dev.davidmcelroy.us](https://senior-dev.davidmcelroy.us/) |
 
 ## Repo contents
